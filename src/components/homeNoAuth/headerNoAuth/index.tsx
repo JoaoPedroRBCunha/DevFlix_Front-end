@@ -2,24 +2,27 @@
 
 import styles from "./styles.module.scss"
 import {Button, Container} from "reactstrap";
+import Link from "next/link";
 
 const HeaderNoAuth = () => {
     return (
         <>
             <div className={styles.ctaSection}>
-                <img src="/homeNoAuth/logoCta.png"
-                     alt="LogoCta"
-                     className={styles.imgCta}
-                />
-                <p>Se cadastre para ter acesso aos cursos</p>
-                <img src="/homeNoAuth/logoCta.png"
-                     alt="LogoCta"
-                     className={styles.imgCta}
-                />
+                <p>Se cadastre para ter acesso aos filmes</p>
             </div>
-            <Container>
-                <img src="/devFlix.svg" alt="LogoDevFlix" />
-                <Button outline color="primary">Entrar</Button>
+            <Container className={styles.nav}>
+                <img src="/devFlix.svg"
+                     alt="LogoDevFlix"
+                     className={styles.imgLogoNav}
+                />
+                <div>
+                    <Link href="/login">
+                        <Button className={styles.navBtn} outline>Entrar</Button>
+                    </Link>
+                    <Link href="/register">
+                        <Button className={styles.navBtn} outline>Quero fazer parte</Button>
+                    </Link>
+                </div>
             </Container>
         </>
     );
