@@ -8,7 +8,7 @@ export type EpisodeType = {
     videoUrl: string;
     secondsLong: number;
 };
-export type FilmeType = {
+export type CourseType = {
     id: number;
     name: string;
     thumbnailUrl: string;
@@ -18,7 +18,7 @@ export type FilmeType = {
 
 const courseService = {
     getNewestCourses: async () => {
-        const res = await api.get("/filmes/newest").catch((error) => {
+        const res = await api.get("/courses/newest").catch((error) => {
             console.log(error.response.data.message);
 
             return error.response;
