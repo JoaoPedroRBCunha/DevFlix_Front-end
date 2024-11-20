@@ -1,7 +1,7 @@
 import styles from "./styles.module.scss";
 import {Button, Container} from "reactstrap";
-import {CourseType} from "@/services/courseService";
-import SlideComponent from "@/components/common/slideComponent";
+import {CourseType} from "../../../services/courseService";
+import SlideComponent from "../../../components/common/slideComponent";
 import Link from "next/link";
 
 interface props {

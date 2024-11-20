@@ -1,5 +1,3 @@
-"use client";
-
 import { Container } from "reactstrap";
 import styles from "./styles.module.scss";
 
