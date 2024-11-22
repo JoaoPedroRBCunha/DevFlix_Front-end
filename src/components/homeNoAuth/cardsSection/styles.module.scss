@@ -1,4 +1,3 @@
-
 @import "../../../../styles/colors.module.scss";
 
 .sectionTitle {
@@ -36,13 +35,25 @@
 }
 .card1 {
   @extend .card;
-  background-image: url("../../../../public/homeNoAuth/imgGit.png");
+  background-image: url("../../../../public/homeNoAuth/imgFrontend.png");
 }
 .card2 {
   @extend .card;
-  background-image: url("../../../../public/homeNoAuth/imgMobile.png");
+  background-image: url("../../../../public/homeNoAuth/imgBackend.png");
 }
 .card3 {
   @extend .card;
-  background-image: url("../../../../public/homeNoAuth/imgBackend.png");
+  background-image: url("../../../../public/homeNoAuth/imgMobile.png");
+}
+.card4 {
+  @extend .card;
+  background-image: url("../../../../public/homeNoAuth/imgGit.png");
+}
+.card5 {
+  @extend .card;
+  background-image: url("../../../../public/homeNoAuth/imgProjects.png");
+}
+.card6 {
+  @extend .card;
+  background-image: url("../../../../public/homeNoAuth/imgCareer.png");
 }
