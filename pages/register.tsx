@@ -69,7 +69,7 @@ const Register = function () {
           btnContent="Quero fazer login"
         />
         <Container className="py-5">
-          <p className={styles.formTitle}>Bem-vindo(a) ao OneBitFlix!</p>
+          <p className={styles.formTitle}>Bem-vindo(a) ao DevFlix!</p>
           <Form className={styles.form} onSubmit={handleRegister}>
             <p className="text-center">
               <strong>Faça a sua conta!</strong>

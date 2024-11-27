@@ -76,7 +76,7 @@ const CoursePage = function () {
   return (
     <>
       <Head>
-        <title>Onebitflix - {course?.name}</title>
+        <title>DevFlix - {course?.name}</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
       <main>

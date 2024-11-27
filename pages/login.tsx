@@ -71,7 +71,7 @@ const Login = function () {
           <p className={styles.formTitle}>Bem-vindo(a) de volta!</p>
           <Form className={styles.form} onSubmit={handleLogin}>
             <p className="text-center">
-              <strong>Bem-vindo(a) ao OneBitFlix!</strong>
+              <strong>Bem-vindo(a) ao DevFlix!</strong>
             </p>
             <FormGroup>
               <Label for="email" className={styles.label}>

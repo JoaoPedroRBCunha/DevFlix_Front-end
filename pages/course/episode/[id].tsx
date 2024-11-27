@@ -107,7 +107,7 @@ const EpisodePlayer = function () {
   return (
     <>
       <Head>
-        <title>Onebitflix - {course.episodes[episodeOrder].name}</title>
+        <title>DevFlix - {course.episodes[episodeOrder].name}</title>
         <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
       </Head>
       <main>
