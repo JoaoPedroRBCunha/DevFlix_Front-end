@@ -97,6 +97,11 @@ const CoursePage = function () {
             outline
             className={styles.courseBtn}
             disabled={course?.episodes?.length === 0 ? true : false}
+            onClick={() => {
+              if (course?.episodes && course.episodes.length > 0) {
+                router.push(`/course/episode/0?courseid=${course.id}&episodeid=${course.episodes[0].id}`);
+              }
+            }}
           >
             ASSISTIR AGORA!
             <img
